@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: rhdh-operator
+spec:
+  sourceType: grpc
+  image: quay.io/gazarenk/rhdh-operator-catalog:latest
+  displayName: RHDH Operator
+  publisher: RHDH
+  updateStrategy:
+    registryPoll:
+      interval: 10m
