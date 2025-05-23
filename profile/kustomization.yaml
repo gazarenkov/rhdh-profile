@@ -9,6 +9,7 @@ resources:
 # https://github.com/redhat-developer/rhdh-operator/config/profile/external?ref=release-1.7
 - https://github.com/redhat-developer/rhdh-operator/config/profile/external
 - namespace.yaml
+- plugin-rbac
 
 images:
 - name: controller

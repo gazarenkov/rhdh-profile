@@ -91,6 +91,8 @@ Note: render quay.io/gazarenk/rhdh-operator-bundle:latest => change WITH tag
 - Option2: Use existing catalog
 Check catalog/operator.yaml and modify if needed (make sure you understand the [FBC](https://olm.operatorframework.io/docs/tasks/creating-a-catalog/))
 
+- If catalog Dockerfile is not generated use `bin/opm generate dockerfile catalog` where catalog is the catalog folder
+
 Note: this sample catalog uses rhdh-operator package name
  
 **build catalog image** 
